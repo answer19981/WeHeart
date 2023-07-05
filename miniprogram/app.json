@@ -1,0 +1,111 @@
+{
+	"pages": [
+		"projects/workheart/pages/default/index/default_index",
+		"projects/workheart/pages/about/list/about_list",
+		"projects/workheart/pages/about/index/about_index",
+		"projects/workheart/pages/search/search",
+		"projects/workheart/pages/my/index/my_index",
+		"projects/workheart/pages/my/reg/my_reg",
+		"projects/workheart/pages/my/edit/my_edit",
+		"projects/workheart/pages/my/foot/my_foot",
+		"projects/workheart/pages/my/fav/my_fav",
+		"projects/workheart/pages/news/index/news_index",
+		"projects/workheart/pages/news/detail/news_detail",
+		"projects/workheart/pages/news/cate1/news_cate1",
+		"projects/workheart/pages/news/cate2/news_cate2",
+		"projects/workheart/pages/admin/news/list/admin_news_list",
+		"projects/workheart/pages/admin/news/add/admin_news_add",
+		"projects/workheart/pages/admin/news/edit/admin_news_edit",
+		"projects/workheart/pages/admin/setup/about/admin_setup_about",
+		"projects/workheart/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/workheart/pages/admin/setup/qr/admin_setup_qr",
+		"projects/workheart/pages/admin/index/home/admin_home",
+		"projects/workheart/pages/admin/index/login/admin_login",
+		"projects/workheart/pages/admin/content/admin_content",
+		"projects/workheart/pages/admin/mgr/log/admin_log_list",
+		"projects/workheart/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/workheart/pages/admin/mgr/list/admin_mgr_list",
+		"projects/workheart/pages/admin/mgr/add/admin_mgr_add",
+		"projects/workheart/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/workheart/pages/admin/user/list/admin_user_list",
+		"projects/workheart/pages/admin/user/detail/admin_user_detail",
+		"projects/workheart/pages/admin/user/export/admin_user_export",
+		"projects/workheart/pages/meet/index/meet_index",
+		"projects/workheart/pages/meet/calendar/meet_calendar",
+		"projects/workheart/pages/meet/join/meet_join",
+		"projects/workheart/pages/meet/detail/meet_detail", 
+		"projects/workheart/pages/meet/my_join_list/meet_my_join_list",
+		"projects/workheart/pages/meet/my_join_detail/meet_my_join_detail",
+		"projects/workheart/pages/admin/meet/add/admin_meet_add",
+		"projects/workheart/pages/admin/meet/edit/admin_meet_edit",
+		"projects/workheart/pages/admin/meet/export/admin_join_export",
+		"projects/workheart/pages/admin/meet/join/admin_meet_join",
+		"projects/workheart/pages/admin/meet/list/admin_meet_list",
+		"projects/workheart/pages/admin/meet/record/admin_meet_record",
+		"projects/workheart/pages/admin/meet/scan/admin_meet_scan",
+		"projects/workheart/pages/admin/meet/temp/admin_meet_temp",
+		"projects/workheart/pages/admin/meet/time/admin_meet_time", 
+		"projects/workheart/pages/work/index/home/work_home",
+		"projects/workheart/pages/work/index/login/work_login",
+		"projects/workheart/pages/work/index/pwd/work_pwd",
+		"projects/workheart/pages/work/meet/edit/work_meet_edit",
+		"projects/workheart/pages/work/meet/time/work_meet_time",
+		"projects/workheart/pages/work/meet/temp/work_meet_temp",
+		"projects/workheart/pages/work/meet/record/work_meet_record",
+		"projects/workheart/pages/work/meet/join/work_meet_join",
+		"projects/workheart/pages/work/meet/scan/work_meet_scan",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#3bafcc",
+		"navigationBarTitleText": "心理咨询预约小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#3bafcc",
+		"list": [
+			{
+				"pagePath": "projects/workheart/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/workheart/images/tabbar/home.png",
+				"selectedIconPath": "/projects/workheart/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/workheart/pages/news/index/news_index",
+				"text": "公告通知",
+				"iconPath": "/projects/workheart/images/tabbar/news.png",
+				"selectedIconPath": "/projects/workheart/images/tabbar/news_cur.png"
+			}, 
+			{
+				"pagePath": "projects/workheart/pages/meet/calendar/meet_calendar",
+				"text": "预约日历",
+				"iconPath": "/projects/workheart/images/tabbar/day.png",
+				"selectedIconPath": "/projects/workheart/images/tabbar/day_cur.png"
+			},
+			{
+				"pagePath": "projects/workheart/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/workheart/images/tabbar/my.png",
+				"selectedIconPath": "/projects/workheart/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
